@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "422781750854",
+    "firebase_url": "https://tkpbus-54ff2.firebaseio.com",
+    "project_id": "tkpbus-54ff2",
+    "storage_bucket": "tkpbus-54ff2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:422781750854:android:bd76bfa87a2f263f",
+        "android_client_info": {
+          "package_name": "d3if.skylark.tkpbus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "422781750854-t09sud5s6o1rhbtl6em2g2lf3okpocg6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1p0u_y-MO3uDnPnco1vTpAqV3MgB2KWo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
