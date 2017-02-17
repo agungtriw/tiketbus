@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
             }
         };
 
-        btnBooking = (Button) findViewById(R.id.booking);
         btnChangeEmail = (Button) findViewById(R.id.change_email_button);
         btnChangePassword = (Button) findViewById(R.id.change_password_button);
         btnSendResetEmail = (Button) findViewById(R.id.sending_pass_reset_button);
@@ -96,13 +95,6 @@ public class MainActivity extends AppCompatActivity {
                 changePassword.setVisibility(View.GONE);
                 sendEmail.setVisibility(View.GONE);
                 remove.setVisibility(View.GONE);
-            }
-        });
-
-        btnBooking.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                startActivity(new Intent(MainActivity.this, BookingActivity.class));
             }
         });
 

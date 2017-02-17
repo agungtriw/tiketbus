@@ -14,23 +14,23 @@
         android:paddingTop="@dimen/activity_vertical_margin"
         android:weightSum="1"
         tools:context="d3if.skylark.tkpbus.BookingTicket">
-
-
-        <ImageView
-            android:id="@+id/imageView"
-            android:layout_width="match_parent"
-            android:layout_height="125dp"
-            android:layout_below="@+id/textView2"
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Base.TextAppearance.AppCompat.Headline"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:src="@drawable/tkpbus" />
-
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="30dp"
+            android:text="Form Pemesanan Tiket"
+            android:textColor="#6f9cf5" />
         <TextView
             android:id="@+id/textViewNama"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/imageView"
             android:text="Nama" />
 
         <EditText
@@ -60,7 +60,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="numberSigned" />
-
         <TextView
             android:id="@+id/textViewTanggal"
             android:layout_width="wrap_content"
@@ -135,27 +134,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Tiket untuk :" />
-
-        <CheckBox
-            android:id="@+id/checkBoxBalita"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="Balita" />
-
-        <CheckBox
-            android:id="@+id/checkBoxAnak"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="Anak-anak" />
-
-        <CheckBox
-            android:id="@+id/checkBoxDewasa"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:checked="false"
-            android:text="Dewasa" />
 
         <Button
             android:id="@+id/buttonProses"

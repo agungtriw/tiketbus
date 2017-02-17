@@ -77,45 +77,33 @@
 
         <Button
             android:id="@+id/changeEmail"
-            style="?android:textAppearanceSmall"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@color/colorPrimaryDark"
             android:text="@string/btn_change"
-            android:textColor="@android:color/white"
+            android:textColor="@color/white"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/booking"
-            style="?android:textAppearanceSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@color/colorPrimaryDark"
-            android:text="Booking"
-            android:textColor="@android:color/white"
-            android:textStyle="bold" />
+
         <Button
             android:id="@+id/changePass"
-            style="?android:textAppearanceSmall"
-            android:layout_width="wrap_content"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@color/colorPrimaryDark"
             android:text="@string/btn_change"
-            android:textColor="@android:color/white"
+            android:textColor="@color/white"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/send"
-            style="?android:textAppearanceSmall"
-            android:layout_width="wrap_content"
+            android:layout_width="350dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@color/colorPrimaryDark"
             android:text="@string/btn_send"
-            android:textColor="@android:color/white"
+            android:textColor="@color/white"
             android:textStyle="bold" />
 
         <ProgressBar
@@ -126,18 +114,16 @@
 
         <Button
             android:id="@+id/remove"
-            style="?android:textAppearanceSmall"
-            android:layout_width="wrap_content"
+            android:layout_width="353dp"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@color/colorPrimaryDark"
             android:text="@string/btn_remove"
-            android:textColor="@android:color/white"
+            android:textColor="@color/white"
             android:textStyle="bold" />
 
         <Button
             android:id="@+id/change_email_button"
-            style="?android:textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -146,7 +132,6 @@
 
         <Button
             android:id="@+id/change_password_button"
-            style="?android:textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -155,7 +140,6 @@
 
         <Button
             android:id="@+id/sending_pass_reset_button"
-            style="?android:textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -164,7 +148,6 @@
 
         <Button
             android:id="@+id/remove_user_button"
-            style="?android:textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
@@ -173,13 +156,12 @@
 
         <Button
             android:id="@+id/sign_out"
-            style="?android:textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:background="@color/colorPrimary"
             android:text="@string/btn_sign_out"
-            android:textColor="@android:color/white"
+            android:textColor="@color/white"
             android:textStyle="bold" />
 
     </LinearLayout>

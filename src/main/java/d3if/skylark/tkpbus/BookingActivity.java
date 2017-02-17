@@ -30,9 +30,6 @@ public class BookingActivity extends AppCompatActivity {
         etTanggal = (EditText) findViewById(R.id.editTextTanggal);
         rgJenis = (RadioGroup) findViewById(R.id.RadioGroupJenis);
         bproses = (Button) findViewById(R.id.buttonProses);
-        cbBal = (CheckBox) findViewById(R.id.checkBoxBalita);
-        cbAnk = (CheckBox) findViewById(R.id.checkBoxAnak);
-        cbDew = (CheckBox) findViewById(R.id.checkBoxDewasa);
         spDari = (Spinner) findViewById(R.id.spinnerDari);
         spTujuan = (Spinner) findViewById(R.id.spinnerTujuan);
         tvHasil = (TextView) findViewById(R.id.textViewHasil);
