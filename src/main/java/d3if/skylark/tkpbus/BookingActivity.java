@@ -11,6 +11,10 @@ import android.widget.RadioGroup;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.firebase.client.Firebase;
+import com.google.firebase.analytics.FirebaseAnalytics;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class BookingActivity extends AppCompatActivity {
     EditText etNama, etAlamat, etNoKTP, etTanggal;
     Button bproses;
@@ -18,12 +22,13 @@ public class BookingActivity extends AppCompatActivity {
     RadioGroup rgJenis;
     Spinner spDari, spTujuan;
     CheckBox cbBal, cbAnk, cbDew;
+    private Firebase mRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_booking);
-
+        Firebase.setAndroidContext(this);
         etNama = (EditText) findViewById(R.id.editTextNama);
         etAlamat = (EditText) findViewById(R.id.editTextAlamat);
         etNoKTP = (EditText) findViewById(R.id.editTextNoKTP);
@@ -80,6 +85,7 @@ public class BookingActivity extends AppCompatActivity {
                     proses3 += cbDew.getText() + "\n";
                 tvHasil.setText(proses + proses2 + proses3);
             }
+            mRef = new Firebase("https://tkpbus-54ff2.firebaseio.comoverview");
         }
     }
 

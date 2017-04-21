@@ -4,7 +4,7 @@
     android:id="@+id/activity_grid_view"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="d3if.skylark.tkpbus.GridViewActivity">
+    tools:context="d3if.skylark.tkpbus.MenuActivity">
 
     <GridView
         android:id="@+id/gridViewCustomData"

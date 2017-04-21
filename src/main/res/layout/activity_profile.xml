@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:fitsSystemWindows="true"
-    tools:context=".MainActivity">
+    tools:context=".ProfileActivity">
 
     <android.support.design.widget.AppBarLayout
         android:layout_width="match_parent"
@@ -113,16 +113,6 @@
             android:visibility="gone" />
 
         <Button
-            android:id="@+id/remove"
-            android:layout_width="353dp"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:background="@color/colorPrimaryDark"
-            android:text="@string/btn_remove"
-            android:textColor="@color/white"
-            android:textStyle="bold" />
-
-        <Button
             android:id="@+id/change_email_button"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -146,13 +136,6 @@
             android:text="@string/send_password_reset_email"
             android:textStyle="bold" />
 
-        <Button
-            android:id="@+id/remove_user_button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:text="@string/remove_user"
-            android:textStyle="bold" />
 
         <Button
             android:id="@+id/sign_out"

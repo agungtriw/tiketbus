@@ -20,16 +20,7 @@ public class AboutActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(AboutActivity.this);
-                alertDialogBuilder.setMessage("Are you sure delete this file?");
-
-
-                alertDialogBuilder.setPositiveButton("", new DialogInterface.OnClickListener() {
-                    @Override
-                    public void onClick(DialogInterface arg0, int arg1) {
-                        Toast.makeText(AboutActivity.this,"Versi 1.0",Toast.LENGTH_LONG).show();
-                    }
-                });
-
+                alertDialogBuilder.setMessage("Versi 1.0");
                 AlertDialog alertDialog = alertDialogBuilder.create();
                 alertDialog.show();
             }
